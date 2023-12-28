@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.10.12 on win32)" generated="20231115 18:00:10.453" rpa="true" schemaversion="4">
+<suite id="s1" name="Tasks" source="f:\my-rsb-robot\tasks.robot">
+<test id="s1-t1" name="Insert the sales data for the week and export it as a PDF" line="6">
+<kw name="Open the intranet website">
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<msg timestamp="20231115 18:00:15.365" level="INFO">Downloaded webdriver to: C:\Users\ADMIN\AppData\Local\robocorp\webdrivers\.wdm\drivers\chromedriver\win64\119.0.6045.105\chromedriver-win32/chromedriver.exe</msg>
+<msg timestamp="20231115 18:00:17.012" level="INFO">Webdriver version taken into use: ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103})
+</msg>
+<msg timestamp="20231115 18:00:17.951" level="INFO">Targeted browser version: 119.0.6045</msg>
+<msg timestamp="20231115 18:00:17.952" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<msg timestamp="20231115 18:00:21.916" level="INFO">Created Chrome browser with arguments: --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox</msg>
+<msg timestamp="20231115 18:00:21.917" level="INFO" html="true">&lt;p&gt;Attempted combinations:&lt;/p&gt;&lt;div class="doc"&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Browser&lt;/th&gt;&lt;th&gt;Download&lt;/th&gt;&lt;th&gt;Error&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Chrome&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;Message: Webdriver executable 'chromedriver' is not in PATH (with disabled Selenium Manager)
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Chrome&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</msg>
+<msg timestamp="20231115 18:00:21.917" level="INFO">Opening url 'https://robotsparebinindustries.com/'</msg>
+<status status="PASS" starttime="20231115 18:00:12.419" endtime="20231115 18:00:22.682"/>
+</kw>
+<status status="PASS" starttime="20231115 18:00:12.417" endtime="20231115 18:00:22.683"/>
+</kw>
+<status status="PASS" starttime="20231115 18:00:12.415" endtime="20231115 18:00:22.684"/>
+</test>
+<doc>Insert the sales data for the week and export it as a PDF.</doc>
+<status status="PASS" starttime="20231115 18:00:10.473" endtime="20231115 18:00:22.688"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tasks">Tasks</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
